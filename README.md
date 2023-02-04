@@ -31,4 +31,4 @@ Si es menor que cero entonces se cancela la operacion.
  ~~~
  
  ##Etapa 03 . Diseño de solución
- 
+ ![](https://github.com/Cristopher2023/ConvertirMoneda/blob/master/Diagrama%20de%20Clases.png)
