@@ -39,7 +39,11 @@ aqui existira otra variable tipo float para atrapar la cantidad ingresada y se l
  |      PesoMX      |  377.59 |     
  +----------------------------+
  
- ~~~
- 
+
+  ~~~
+  
  ##Etapa 03 . Diseño de solución
- ![](https://github.com/Cristopher2023/ConvertirMoneda/blob/master/Diagrama%20de%20Clases.png)
+ 
+ ![](https://github.com/Cristopher2023/ConvertirMoneda/blob/master/Diagrama%20de%20Clases%20ConversorMoneda.png)
+ 
+ 
