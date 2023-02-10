@@ -6,27 +6,38 @@ Se requiere un programa en Java para convertir una cantidad de dinero en otros t
 ~~~
 
 -Datos de entrada
-float cantidad
-String moneda1 , moneda2,moneda3,moneda4,moneda5;
+    String moneda1="Dolar";
+    String  moneda2= "PesoMX";
+    String moneda3="Quetzal";
+    String moneda4="Libra Egipcia";
+    String moneda5 ="Franco Suizo";
+    String moneda6="Peso Cubano";
+    double conversion;
 
-Double conversión 
+
 
 -Proceso
-Solicitar moneda a convertir
-Solicitar cantidad a conevertir
-Solicitar moneda para procesar conversion
+Creacion de metodos con parametros que reciban la cantidad
+de tipo float los cuales por cada conversion de moneda se ejecutaran
+segun sea el caso.
 
-si el monto es mayor o igual que cero entonces se convertira a la moneda deseada
-Si es menor que cero entonces se cancela la operacion.
+Se utilizara un Switch case con interfaces secillas de Joptionpane
+para la seleccion de dicha conversion por opciones 
+
+Ya que se seleccione una conversion se mandara a traer el  metodo 
+por medio de la creación de un objeto para la Clase conversion moneda
+aqui existira otra variable tipo float para atrapar la cantidad ingresada y se lleve acabo la conversion   
+
+
 
 
 
 -Salida
- +---------------------------------------------------------------------------------+
- | cantidad ingreda  | moneda de origen  |cantidad convertida | moneda a convertir |
- +---------------------------------------------------------------------------------+
- |     10            |  dolares          |    189.79          |     peso mexicano  | 
- +---------------------------------------------------------------------------------+
+ +----------------------------+
+ |       Dolar      | 20      | 
+ +----------------------------+
+ |      PesoMX      |  377.59 |     
+ +----------------------------+
  
  ~~~
  
