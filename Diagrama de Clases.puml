@@ -2,34 +2,31 @@
 skinparam classAttributeIconSize 0
 
 class Main {
-    String mensaje
-    toString()
+    +int terminar;
+    +float can;
+    + ConversorMoneda(can)
+        + DolaraPesoMexicano(can)
+        + DolaraQuetzal(can)
+        + DolaraLibra(can)
+        + DolaraFranco(can)
 }
 
 class ConversorMoneda {
-    - float cantidad
-    - String moneda1
-    - String moneda2
-    - String moneda3
-    - String moneda4
-    - String moneda5
-    - double conversion
-    + ConversorMoneda()
-    + ConversorModeda(float cantidad...)
-    + getCantidad()
-    + setCantidad()
-    + getMoneda1()
-    + setMoneda1()
-    + getMoneda2()
-    + setMoneda2()
-    + getMoneda3()
-    + setMoneda3()
-    + getMoneda4()
-    + setMoneda4()
-    + getMoneda5()
-    + setMoneda5()
-    + toString()
+    + String moneda1=Dolar;
+    + String moneda2=PesoMX;
+    + String moneda3=Quetzal;
+    + String moneda4=Libra Egipcia;
+    + String moneda5=Franco Suizo;
+    + String moneda6=Peso Cubano;
+    + double conversion;
+    + ConversorMoneda(float cantidad)
+    + DolaraPesoMexicano(float cantidad)
+    + DolaraQuetzal(float cantidad)
+    + DolaraLibra(float cantidad)
+    + DolaraFranco(float cantidad)
+
+
 }
 
-Main <|--- ConversorModeda
+Main <|--- ConversorMoneda
 @enduml
